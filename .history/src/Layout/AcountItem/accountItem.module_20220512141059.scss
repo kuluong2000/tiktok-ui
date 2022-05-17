@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.info {
+    padding-left: 16px;
+}
+.name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
